@@ -483,15 +483,17 @@ select {
     text-decoration: line-through;
 }
 
+.contact {
+    background: url(../image/contactus.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .contact .row{
     display: flex;
     flex-wrap: wrap;
 }
-
-.contact .row .map{
-    flex:1 1 42rem;
-    width: 100%;
-}
+ 
 
 .contact .row form{
     flex:1 1 42rem;
