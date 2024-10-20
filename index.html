@@ -27,8 +27,8 @@
         <a href="#products">products</a>
         <a href="#about">about</a>
         <a href="#arrivals">arrivals</a>
-        <a href="#contact">contact</a>
         <a href="#blogs">blogs</a>
+        <a href="#contact">contact</a>
     </nav>
 
     <div class="icons">
@@ -91,7 +91,7 @@
 </section>
 
 <section class="ai-costume-creator" id="aiproduct">
-    <h2 class="heading">Create Costume</h2>
+    <h2 class="heading">Create and customize your perfect Halloween costume.</h2>
     <div class="swiper products-slider" data-aos="zoom-in"></div>
     <div class="aicostume-options">
         <div class="aicostume-option">
@@ -122,6 +122,11 @@
             </select>
         </div>
         <button class="btn" id="generate-costume">Generate Costume</button>
+        <!-- Costume preview section -->
+        <div id="costume-preview" style="margin-top: 20px; font-size: 20px;">
+        <h3 >Your Custom Costume:</h3>
+        <div id="generated-costume" style="font-size: 2rem; font-weight: bold;"></div>
+        </div>
     </div>
 </section>
 
@@ -143,7 +148,7 @@
                     <img src="image/product-1.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>latest products</h3>
+                    <h3>Hoodie</h3>
                     <div class="price"> $79.99 <span>$95.99</span> </div>
                 </div>
             </div>
@@ -158,8 +163,8 @@
                     <img src="image/product-2.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>latest products</h3>
-                    <div class="price"> $79.99 <span>$95.99</span> </div>
+                    <h3>T-Shirt</h3>
+                    <div class="price"> $29.99 <span>$35.99</span> </div>
                 </div>
             </div>
 
@@ -173,8 +178,8 @@
                     <img src="image/product-3.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>latest products</h3>
-                    <div class="price"> $79.99 <span>$95.99</span> </div>
+                    <h3>Hat</h3>
+                    <div class="price"> $5.99 <span>$9.99</span> </div>
                 </div>
             </div>
 
@@ -188,8 +193,8 @@
                     <img src="image/product-4.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>latest products</h3>
-                    <div class="price"> $79.99 <span>$95.99</span> </div>
+                    <h3>Mask</h3>
+                    <div class="price"> $9.99 <span>$15.99</span> </div>
                 </div>
             </div>
 
@@ -203,8 +208,8 @@
                     <img src="image/product-5.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>latest products</h3>
-                    <div class="price"> $79.99 <span>$95.99</span> </div>
+                    <h3>Lamp</h3>
+                    <div class="price"> $10.99 <span>$17.99</span> </div>
                 </div>
             </div>
 
@@ -241,7 +246,7 @@
             </div>
             <div class="content">
                 <h3>latest products</h3>
-                <div class="price"> $79.99 <span>$95.99</span> </div>
+                <div class="price"> $9.99 <span>$15.99</span> </div>
             </div>
         </div>
 
@@ -256,7 +261,7 @@
             </div>
             <div class="content">
                 <h3>latest products</h3>
-                <div class="price"> $79.99 <span>$95.99</span> </div>
+                <div class="price"> $7.99 <span>$9.99</span> </div>
             </div>
         </div>
 
@@ -271,7 +276,7 @@
             </div>
             <div class="content">
                 <h3>latest products</h3>
-                <div class="price"> $79.99 <span>$95.99</span> </div>
+                <div class="price"> $7.99 <span>$9.99</span> </div>
             </div>
         </div>
 
@@ -301,7 +306,7 @@
             </div>
             <div class="content">
                 <h3>latest products</h3>
-                <div class="price"> $79.99 <span>$95.99</span> </div>
+                <div class="price"> $29.99 <span>$35.99</span> </div>
             </div>
         </div>
 
@@ -316,37 +321,13 @@
             </div>
             <div class="content">
                 <h3>latest products</h3>
-                <div class="price"> $79.99 <span>$95.99</span> </div>
+                <div class="price"> $9.99 <span>$15.99</span> </div>
             </div>
         </div>
 
     </div>
 
 </section>
-
-<section class="contact" id="contact">
-
-    <h1 class="heading"> <span>contact</span> us </h1>
-
-    <div class="row">
-
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1632569975602!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
-
-        <form action="">
-            <h3 data-aos="zoom-in">tell us something!</h3>
-            <input data-aos="zoom-in" type="text" placeholder="your name" class="box">
-            <input data-aos="zoom-in" type="email" placeholder="your email" class="box">
-            <input data-aos="zoom-in" type="number" placeholder="your number" class="box">
-            <textarea data-aos="zoom-in" placeholder="your message" class="box" cols="30" rows="10"></textarea>
-            <input data-aos="zoom-in" type="submit" value="send message" class="btn">
-        </form>
-
-    </div>
-
-</section>
-
-<!-- contact section ends -->
-
 <!-- blogs section starts  -->
 
 <section class="blogs" id="blogs">
@@ -404,6 +385,27 @@
 
 </section>
 
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <form action="">
+            <h3 data-aos="zoom-in">tell us something!</h3>
+            <input data-aos="zoom-in" type="text" placeholder="your name" class="box">
+            <input data-aos="zoom-in" type="email" placeholder="your email" class="box">
+            <input data-aos="zoom-in" type="number" placeholder="your number" class="box">
+            <textarea data-aos="zoom-in" placeholder="your message" class="box" cols="30" rows="10"></textarea>
+            <input data-aos="zoom-in" type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
 <section class="footer" id="footer">
 
     <div class="box-container">
@@ -420,11 +422,13 @@
         <div class="box" data-aos="fade-down">
             <h3>quick links</h3>
             <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> products </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+            <a href="#aiproduct"> <i class="fas fa-arrow-right"></i> Costume Generate </a>
+            <a href="#products"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#arrivals"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
+            
         </div>
 
         <div class="box" data-aos="fade-up">
@@ -435,11 +439,10 @@
 
         <div class="box" data-aos="fade-left">
             <h3>contact us</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="https://as2.ftcdn.net/v2/jpg/01/66/10/03/1000_F_166100342_KbTGIRrnrlwGDZSXSMpH3zfn2dxyTKae.jpg" target="_blank"><i class="fab fa-twitter"></i> twitter</a>
+            <a href="https://as2.ftcdn.net/v2/jpg/01/66/10/03/1000_F_166100342_KbTGIRrnrlwGDZSXSMpH3zfn2dxyTKae.jpg" target="_blank"><i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://as2.ftcdn.net/v2/jpg/01/66/10/03/1000_F_166100342_KbTGIRrnrlwGDZSXSMpH3zfn2dxyTKae.jpg" target="_blank"><i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="https://as2.ftcdn.net/v2/jpg/01/66/10/03/1000_F_166100342_KbTGIRrnrlwGDZSXSMpH3zfn2dxyTKae.jpg" target="_blank"><i class="fab fa-pinterest"></i> pinterest </a>
         </div>
 
     </div>
